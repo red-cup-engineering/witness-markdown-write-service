@@ -1,0 +1,21 @@
+{
+  "name": "@red-cup-engineering/witness-markdown-write-service",
+  "version": "0.1.1",
+  "type": "module",
+  "description": "Writes one Markdown carrier through write-markdown-file-service and witnesses that write as one witness-journal entry under the same root, so the write and its evidence settle as one apex.",
+  "exports": "./src/index.mjs",
+  "bin": {
+    "witness-markdown-write": "scripts/witness-markdown-write.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node --check src/index.mjs && node --check scripts/witness-markdown-write.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/eavt-services-section": "0.10.4",
+    "@red-cup-engineering/markdown-engineering-services-section": "0.5.0"
+  }
+}
