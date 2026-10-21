@@ -21,5 +21,10 @@
   "dependencies": {
     "@red-cup-engineering/eavt-services-section": "workspace:*",
     "@red-cup-engineering/markdown-engineering-services-section": "workspace:*"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
